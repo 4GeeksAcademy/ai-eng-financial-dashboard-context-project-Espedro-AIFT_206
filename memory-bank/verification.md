@@ -57,8 +57,8 @@ Local URLs:
 
 ### Agent and repository guidance
 
-- `AGENTS.md` directs contributors to inspect `./.agents/rules`, `./.agents/skills`, and `./memory-bank` before acting. Those paths were not present when this note was written.
-- This file is in `Memory-Bank/` (capital M and B), not `memory-bank/`. Linux paths are case-sensitive; do not assume these names refer to the same directory.
+- `AGENTS.md` directs contributors to inspect `./.agents/rules`, `./.agents/skills`, and `./memory-bank` before acting. The financial dashboard rule and memory bank are present; `.agents/skills/` currently has no skill files.
+- Repository guidance expects the lowercase `memory-bank/` path. Linux paths are case-sensitive; the earlier `Memory-Bank/` capitalization did not satisfy that instruction. This verification note is kept in the required lowercase directory.
 
 ### Architecture and implementation conventions
 
